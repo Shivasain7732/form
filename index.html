@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Application (website) form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="apply">
+			<h1>Job Application
+				<span class="title_small">(web)</span>
+			</h1>
+			<form action="">
+				<div class="form_container">
+					
+					<div class="form_control"> 		
+						<label for="first_name">First Name</label>
+						<input id="first_name" name="first Name" placeholder="enter first name..."><br>
+					</div>
+					
+					<div class="form_control">	
+						<label for="last_name">Last Name</label>
+						<input id="last_name" name="Last Name" placeholder="enter last name..."><br>
+					</div>
+					
+					<div class="form_control">	
+						<label for="email">Email</label>
+						<input type="Email" id="email" name="Email" placeholder="enter Email..."><br>
+					</div>
+					
+					<div class="form_control">	
+						<label for="job_role">Job Roles</label>
+							<select id="job_role" name="job_role">
+								<option value="frontend">Frontend Developer</option>
+								<option value="backend">Backend Developer</option>
+								<option value="full_stack">Full Stack Developer</option>
+								<option value="ui_ux">UI UX Designer</option>
+							</select>
+					</div>
+					
+					<div class="textarea_control">		
+						<label for="address">Address</label>
+						<textarea id="address" name="address" rows="4" cols="50" placeholder="enter address...">
+						</textarea>
+					</div>
+					<div class="form_control">
+						<label for="city">City</label>
+						<input id="city" name="city" placeholder="enter city name..."><br>
+					</div>
+					<div class="form_control">
+						<label for="pincode">Pincode</label>
+						<input type="number" id="pincode" name="pincode" placeholder="enter pincode name..."><br>
+					</div>
+					<div class="form_control">
+						<label for="date">Date</label>
+						<input id="date" name="date" type="date" value="2000-01-10"><br>
+					</div>	
+					<div class="form_control">
+						<label for="upload">Upload Your CV</label>
+						<input id="upload" name="upload" type="file"><br>
+					</div>
+				</div>	
+				<div class="button_container">
+					<button type="submit">Apply Now</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
